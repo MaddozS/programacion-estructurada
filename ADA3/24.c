@@ -15,14 +15,13 @@
 #include <conio.h>
 #include <string.h>
 int main(){
-	//Variables de cantidad de objetos
+	//Variables de las palabras
 	char tienes[10], que[10], estar[10], invitado[10];
-	//Variable el monto total de la venta
 	
 	printf("----------------CHICHARRIZA----------------\n");
 	printf("Ingresa la la contrase%ca secreta...\n", 164);
 	
-	//proceso de preguntas para saber cuanto compro de cada cosa
+	//proceso de preguntas para saber si ingresa correctamente la frase completa
 	gets(tienes);
 	
 	if (strcmp(tienes,"Tienes") == 0 ){ //Se usa la funcion strcmp() para comparar el string
