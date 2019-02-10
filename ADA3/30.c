@@ -21,22 +21,22 @@ int main ()
 	switch (lado) 
 	{
 		case 1: 
-			printf( "Tiene cuatro letras la cara opuesta al 1" ) ;
+			printf( "La cara opuesta es seis" ) ;
 			break;
 		case 2: 
-			printf( "Tiene cinco letras la cara opuesta al 2" ) ;
+			printf( "La cara opuesta es cinco" ) ;
 			break;
 		case 3:
-			printf( "Tiene seis letras la cara opuesta al 3" ) ;
+			printf( "La cara opuesta es cuatro" ) ;
 			break;
 		case 4: 
-			printf( "Tiene cuatro letras la cara opuesta al 4" ) ;
+			printf( "La cara opuesta es tres" ) ;
 			break;
 		case 5: 
-			printf( "Tiene tres letras la cara opuesta al 5" ) ;
+			printf( "La cara opuesta es dos" ) ;
 			break;
 		case 6:
-			printf( "Tiene tres letras al cara opuesta al 6" ) ;
+			printf( "La cara opuesta es uno" ) ;
 			break;
 		default:
 			printf( "\nUn DADO no tiene ese numero" ) ; 
