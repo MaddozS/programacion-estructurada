@@ -1,8 +1,12 @@
-// Programa que lee las utilidades de 5 empresas e imprime las que tienen utilidades mayor a 2,000,000.
+//Programa que lee las utilidades mensuales de una cadena de 5 tiendas
+//y que determina e imprime cuantas tiendas tuvieron utilidades mayor a
+//los $ 2,000,000.
+//Autor: Programadores Emperdernidos. Fecha: 10/02/19
+//Version: 1.0.
 #include <stdio.h>
 
 int main(){
-	//Iniciacion de las variables
+	//Inicializacion de las variables.
 	int Contador, Utilidades, Acumulador;
 	Contador=1;
 	Acumulador=0;
