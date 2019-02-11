@@ -29,14 +29,16 @@ int main (){
 	//Ciclo para preguntar las calificaciones
 	while(i<=n){
 		//PROCESO
+		
+		//ciclo do while para que se ingrese una calificacion valida (entre 0 y 100)
 		do{
 			printf("Alumno #%d, cu%cnto sacaste el primer parcial: ", i, 160);
 			scanf("%f", &calif);
-			if (calif<0){
+			if (calif < 0 || calif > 100){
 				printf("Debe ingresar una calificaci%cn v%clida\n\n", 162, 160);	
 			}
 		}
-		while (calif < 0)
+		while (calif < 0 || calif > 100);
 		
 		
 		suma += calif;
