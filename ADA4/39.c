@@ -1,8 +1,10 @@
 //Programa que lee las utilidades mensuales de una cadena de 5 tiendas
 //y que determina e imprime cuantas tiendas tuvieron utilidades mayor a
 //los $ 2,000,000.
-//Autor: Programadores Emperdernidos. Fecha: 10/02/19
+//Autor: Programadores Emperdernidos. 
+//Fecha: 10/02/19
 //Version: 1.0.
+//Nombre: 39.c
 #include <stdio.h>
 
 int main(){

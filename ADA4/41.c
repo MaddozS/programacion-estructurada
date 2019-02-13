@@ -3,7 +3,10 @@ Problema: . E.P. que lea las calificaciones del primer parcial de los
 estudiantes de algoritmos y que calcule e imprima el promedio de todo
 el grupo
 
-Autores: Programadores Empedernidos.
+Autor: Programadores Emperdernidos. 
+Fecha: 10/02/19
+Version: 1.0.
+Nombre: 41.c
 */
 
 #include <stdio.h>

@@ -3,6 +3,7 @@
 //tengan entre 3 y 7 hijos.
 //Autor: Programadores Emperdernidos. Fecha: 10/02/19.
 // Version: 1.0
+//Nombre: 38.c
 #include <stdio.h>
 #include <wchar.h>
 

@@ -1,8 +1,10 @@
 /*
+Nombre: 35.c
 Problema: E.P. que lea 25 números (N) y que imprima los que sean iguales a
 cero.
-
+Fecha: 09 feb 2019
 Autores: Programadores Empedernidos.
+Version: 1.0
 */
 
 #include <stdio.h>
@@ -26,7 +28,7 @@ int main (){
 	while(n <=0);
 	
 	//Ciclo para preguntar los números
-	while(i<=n){
+	do{
 		//PROCESO
 		printf("Dame el n%cmero #%d: ", 163, i);
 		scanf("%f", &numero);
@@ -36,7 +38,7 @@ int main (){
 			printf("Este n%cmero es igual a cero\n", 163);
 		}
 		i++;
-	}
+	}while(i<=n);
 	
 	return 0;
 }

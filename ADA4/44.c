@@ -3,7 +3,7 @@
 #include <string.h>
 
 /*
-Nombre: 44_calificación-estudiantes.c
+Nombre: 44.c
 Autor: Programadores empedernidos
 Descripcion: Los estudiantes de Ingeniería presentaron un examen de admisión con
 			100 preguntas.  E.P. que lea el nombre y el número de respuestas 
@@ -22,44 +22,45 @@ Versión: 1.0 */
 
 int main(int argc, char *argv[]) {
 	/*se definen las variables*/
-	char nombre_alumno[50][50];
-	char nombre_aux[50];
-	int respuestas_correctas[50],calificacion[50];
+	char nombre_alumno[50];
+	int respuestas_correctas,calificacion;
 	int i = 0; 
 	/*entrada: Se solicitan los nombres y califiaciones */
 	while (i<50){
 		printf("%i/50 Nombre: ",i+1);
-		gets(nombre_alumno[i]);
+		fflush(stdin);
+		gets(nombre_alumno);
 		// numeros[i] = i-50; //para pruebas
 		printf("%i/50 Respuestas correctas: ",i+1);
-		scanf("%i",&respuestas_correctas[i]);
+		scanf("%i",&respuestas_correctas);
 		/*proceso: Se calcula la calificacion*/
-		if (respuestas_correctas[i]>90){
-			calificacion[i]=100;
+		if (respuestas_correctas>90){
+			calificacion=100;
 		}else{
-			if (respuestas_correctas[i]>75){
-				calificacion[i]=90;
+			if (respuestas_correctas>75){
+				calificacion=90;
 			}else{
-				if(respuestas_correctas[i]>65){
-					calificacion[i]=80;
+				if(respuestas_correctas>65){
+					calificacion=80;
 				}else{
-					if(respuestas_correctas[i]>60){
-						calificacion[i]=70;
+					if(respuestas_correctas>60){
+						calificacion=70;
 					}else{
-						if(respuestas_correctas[i]>50){
-							calificacion[i]=60;
+						if(respuestas_correctas>50){
+							calificacion=60;
 						}else{
-							if(respuestas_correctas[i]>30){
-								calificacion[i]=50;
+							if(respuestas_correctas>30){
+								calificacion=50;
 							}else{
-								calificacion[i]=0;
+								calificacion=0;
 							};
 						};
 					};
 				};
 			};
 		};
-		printf("%s: %i\n",nombre_aux,calificacion[i]);
+		printf("%s: %i\n",nombre_alumno,calificacion);
+		strcpy(nombre_alumno,"");
 		i++;
 	};
 	

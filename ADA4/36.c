@@ -1,8 +1,10 @@
 /*
+Nombre: 36.c
 Problema: . E.P. que lea 50 números y que cuente e imprima cuantos son
 negativos.
-
+Fecha: 09 feb 2019
 Autores: Programadores Empedernidos.
+Version: 1.0
 */
 
 #include <stdio.h>
@@ -26,7 +28,7 @@ int main (){
 	while(n <=0);
 	
 	//Ciclo para preguntar los números
-	while(i<=n){
+	do{
 		//PROCESO
 		printf("Dame el n%cmero #%d: ", 163, i);
 		scanf("%f", &numero);
@@ -36,6 +38,7 @@ int main (){
 		}
 		i++;
 	}
+	while(i<=n);
 	//SALIDA
 	printf("Hubo un total de %d n%cmeros negativos", cont, 163);
 	return 0;

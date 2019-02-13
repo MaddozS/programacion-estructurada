@@ -3,7 +3,10 @@ Problema: E.P. que lea las calificaciones del primer parcial de los
 estudiantes de algoritmos y que cuente e imprima cuantos alumnos
 obtuvieron calificación mayor a 80
 
-Autores: Programadores Empedernidos.
+Autor: Programadores Emperdernidos. 
+Fecha: 10/02/19
+Version: 1.0.
+Nombre: 42.c
 */
 
 #include <stdio.h>

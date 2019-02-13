@@ -1,5 +1,9 @@
 
 //Leer las utilidades de una tienda cada mes y ver cuales son mayoes a 2000000 al final del año
+//Autor: Programadores Emperdernidos. 
+//Fecha: 10/02/19
+//Version: 1.0.
+//Nombre: 40.c
 #include <stdio.h>
 
 int main(){
