@@ -1,9 +1,8 @@
 
-/*Se desea realizar una encuesta a 45 estudiantes, E.P. que lea el mes nacimiento de cada alumno 
-(usando números del 1 al 12) y determine ¿cuántos nacieron en el primer semestre del año y cuántos 
-en el segundo semestre?. Además, debe validar que el número introducido, corresponda a un mes; por 
-ejemplo, no se acepta 13 como mes. Si el mes es incorrecto debe solicitarlo nuevamente. Utilizar 
-sólo estructuras repetitivas while.*/
+/*Para un estudio se requiere calcular el salario mensual promedio de programadores junior en empresas 
+tecnológicas, se visitarán 10 empresas y en cada una se encuestará a un número diferente de programadores.
+E.P. que determine e imprima el salario mensual promedio de todos los programadores.  Utilizar estructuras 
+repetitivas while o do-while.*/
 
 #include <stdio.h>
 #include <conio.h>

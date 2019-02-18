@@ -10,6 +10,7 @@ Utilizar sólo estructuras repetitivas do-while.*/
 #include <conio.h>
 #include <math.h>
 #define MTS 3.85
+
 int main (){
 	
 	char participantes;
